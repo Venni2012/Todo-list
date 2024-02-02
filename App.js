@@ -3,7 +3,6 @@ import './App.css';
 const TaskList = () => {
 
   const [tasks, setTasks] = useState([]);
-  // State to manage the input for adding new tasks
   const [newTask, setNewTask] = useState('');
 
 
